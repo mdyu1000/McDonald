@@ -17,8 +17,17 @@ ul, li, a, div, p {
 .majorPic{
   width: 100%;
   height: auto;
+
 }
 .majorPic img{
   width: 100%;
   height: auto;
+}
+.exchange{
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  top:0;
 }
