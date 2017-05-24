@@ -11,7 +11,7 @@ ul, li, a, div, p {
   margin: 0px;
 }
 .container{
-  width:320px;
+  width:480px;
 }
 
 .majorPic{
@@ -24,10 +24,19 @@ ul, li, a, div, p {
   height: auto;
 }
 .exchange{
-  height: 50px;
-  width: 50px;
-  background-color: White;
+  height: 100px;
+  width: 480px;
+  background-color: white;
   display: inline-block;
   position: absolute;
+  bottom:0;
+}
+.confirm{
+  width:440px;
+  position: absolute;
   top:0;
+  
+}
+.confirm img{
+  width: 100%;
 }
