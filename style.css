@@ -49,3 +49,11 @@ ul, li, a, div, p {
 .confirm img{
   width: 100%;
 }
+.confirm_OK{
+  position: absolute;
+  background-color: black;
+  bottom: 0;
+  right: 0;
+  height: 70px;
+  width: 125px;
+}
