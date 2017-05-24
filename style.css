@@ -17,6 +17,7 @@ ul, li, a, div, p {
 .majorPic{
   width: 100%;
   height: auto;
+  position: relative;
 
 }
 .majorPic img{
@@ -26,16 +27,24 @@ ul, li, a, div, p {
 .exchange{
   height: 100px;
   width: 480px;
-  background-color: white;
+  background-color: pink;
   display: inline-block;
   position: absolute;
   bottom:0;
+  cursor: pointer;
+  opacity: 0;
 }
 .confirm{
   width:440px;
   position: absolute;
-  top:0;
-  
+  top:50%;
+  left: 20px;
+  margin-top: -125px;
+  display: none;
+
+}
+.confirm_display{
+  display: block;
 }
 .confirm img{
   width: 100%;
