@@ -10,50 +10,78 @@ ul, li, a, div, p {
   padding: 0px;
   margin: 0px;
 }
-.container{
-  width:480px;
+
+.container {
+  width: 480px;
 }
 
-.majorPic{
+.majorPic {
   width: 100%;
   height: auto;
   position: relative;
-
 }
-.majorPic img{
+
+.majorPic img {
   width: 100%;
   height: auto;
 }
-.exchange{
+
+.exchange {
   height: 100px;
   width: 480px;
   background-color: pink;
   display: inline-block;
   position: absolute;
-  bottom:0;
+  bottom: 0;
   cursor: pointer;
   opacity: 0;
 }
-.confirm{
-  width:440px;
+
+.confirm {
+  width: 440px;
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 20px;
   margin-top: -125px;
   display: none;
-
 }
-.confirm_display{
+
+.confirm_display {
   display: block;
 }
-.confirm img{
+
+.confirm img {
   width: 100%;
 }
-.confirm_OK{
+
+.confirm_OK {
   position: absolute;
   background-color: black;
   bottom: 0;
   right: 0;
   height: 70px;
   width: 125px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.count {
+  height: 100px;
+  width: 480px;
+  background-color: pink;
+  text-align: center;
+  line-height: 100px;
+}
+
+.count p {
+  display: inline-block;
+}
+
+.unit {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  color: #000;
+  font-size: 30px;
+  font-family: Microsoft JhengHei;
 }
