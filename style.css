@@ -66,22 +66,58 @@ ul, li, a, div, p {
 }
 
 .count {
-  height: 100px;
-  width: 480px;
-  background-color: pink;
+  height: 90px;
+  width: 470px;
+  background-color: #F6A90B;
   text-align: center;
   line-height: 100px;
+  position: absolute;
+  display: none;
+  bottom: 15px;
+  margin-left: 5px;
+}
+
+.count_display {
+  display: block;
 }
 
 .count p {
   display: inline-block;
+  font-size: 25px;
+  color: #eee;
+  font-family: 微軟正黑體;
+  font-weight: 400;
 }
 
 .unit {
-  height: 50px;
-  width: 50px;
-  background-color: pink;
-  color: #000;
-  font-size: 30px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #F6A90B;
+  color: #eee;
+  font-size: 25px;
   font-family: Microsoft JhengHei;
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+.clock_img {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  -background-color: #000;
+  position: relative;
+  line-height: 35px;
+  top: 7px;
+}
+
+.clock_img img {
+  width: 100%;
+}
+
+.big_img{
+  filter: brightness(1);
+}
+.big_img_dark{
+  filter:brightness(.3);
 }
